@@ -45,9 +45,8 @@ $res -> aleatorio = $aleatorio;
 $redondear = round ($division,0);
 $res -> redondear = $redondear;
 
-
-
-echo json_encode ($pre, JSON_PRETTY_PRINT);
+$res->servidor = $_SERVER ["HTTP_HOST"];
+echo json_encode ($res, JSON_PRETTY_PRINT);
 
 
 
