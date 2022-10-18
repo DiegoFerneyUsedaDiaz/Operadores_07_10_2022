@@ -4,6 +4,9 @@ header('Content-Type: application/json; charset=utf-8');
 $res = new stdClass ();
 $num1 = 15;
 $num2 = 4;
+$res->num1 = $num1;
+$res->num2 = $num2;
+
 
 //operador Suma
 $suma = $num1 + $num2;
