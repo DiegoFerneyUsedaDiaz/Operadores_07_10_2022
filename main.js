@@ -1,5 +1,5 @@
 addEventListener("DOMContentLoaded", async(e)=>{
     let peticion = await fetch("api.php");
     let data = await peticion.text();
-    document.querySelector("pre").innerHTML = datos;
+    document.querySelector("pre").innerHTML = data;
 }) 
