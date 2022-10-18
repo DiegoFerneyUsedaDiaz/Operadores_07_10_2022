@@ -47,7 +47,7 @@ $res -> redondear = $redondear;
 
 
 
-echo json_encode ($res, JSON_PRETTY_PRINT);
+echo json_encode ($pre, JSON_PRETTY_PRINT);
 
 
 
