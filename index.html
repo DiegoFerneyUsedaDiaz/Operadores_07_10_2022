@@ -7,12 +7,19 @@
     <title>Operadores</title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
-   
 </head>
 <body>
-
-    <h1>Operadores Aritmeticos</h1>
+    <form id="Formulario" method="POST" action="https://diegoferneyusedadiaz.000webhostapp.com/Operadores2_10_10_2022/api.php">
+        <label>Ingresar su nombre *</label>
+        <input name="nombre" type="text" pattern="[A-Z a-z]+" title="Ingrese solo letras" value="Diego Ferney Useda Diaz" required>
+        <label>Ingrese su edad</label>
+        <input name="edad" type="text" pattern="[0-9]+" title="Ingrese solo numeros" value="36">
+        <label>Ingrese su altura *</label>
+        <input name="altura" type="text" pattern="[0-9.]+" title="Ingrese solo numeros" value="1.75" required>
+        <label>Ingrese su peso</label>
+        <input name="peso" type="text" pattern="[0-9.]+" title="Ingrese solo numeros" value="76">
+        <input type="submit" value="Enviar datos">
+    </form>
     <pre></pre>
-    
 </body>
 </html>
